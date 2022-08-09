@@ -1,0 +1,249 @@
+.body {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.containe {
+     margin: 2em;
+     color: #03224c;
+}
+.red {
+     color: red;
+}
+.red1 {
+     background-color: red;
+}
+.spacearound, #menu {
+     display: flex;
+     justify-content: space-around;
+}
+.spacebetween {
+     display: flex;
+     justify-content: space-between;
+}
+.wrap {
+     flex-wrap: wrap;
+}
+.alignitem {
+     display: flex;
+     align-items: center;
+}
+.textalign, input {
+     text-align: center;
+}
+.relative {
+     position: relative;
+}
+.image1 {
+     width: em ;
+}
+
+#menu li {    
+     margin: .5em;
+     display: inline-block;
+     text-decoration: none;
+}
+#menu li a {
+     text-decoration: none;
+     color:  #03224c;
+     font-weight: bold;
+}
+#menu li a:hover {
+    color: red;
+}
+.navigation {
+     height: 5em;
+} 
+
+#menu ul {
+     list-style: none;
+}
+.eat { width: em;
+     font-size: .7em;
+     top: -1em;
+}
+.fourchette {
+     width: 3em;
+     height: 3em;
+}
+.icone {
+     width: 2em;
+     height: 2em;
+}
+.image2 {
+     display: flex;
+     bottom: -1em;
+}
+.zero {
+      color: white;
+     top: -3.6em;
+     left: 2.8em;
+     width: 1.5em;
+     height: 1.5em;
+     font-size: .5em;
+     border-radius: .75em;
+}
+.rouge  {
+     bottom: -.5em;
+}
+
+.imagehero {
+     width: 50%;
+     height: 30em;
+}
+
+
+.commande {
+     width: 20em;
+     height: 3em;
+     border-radius: 5px;
+     color: white;
+}
+.commande:hover {
+     background-color: rgb(4, 4, 158);
+}
+.voiture {
+     height: 2em;
+     width: 2em;
+     border-radius: 1em;
+     margin-right: 1em;
+     top: .7em;
+}
+.sectionpizza  { width: 18%;
+     border-radius: 5px;
+     margin-right: 1em;
+     padding: .5em 1em .3em 1em;
+     height: 4em;
+     background-color: rgb(250, 179, 203);
+     margin-top: 2em;
+ }
+
+ .marginbotton1 {
+     bottom: -2em;
+ }
+ .marginbotton2 {
+     bottom: -1.3em;
+ }
+ .marginbotton3 {
+     bottom: -.5em;
+ }
+ .imagerepas {
+     width: 6em;
+     height: 6em;
+ }
+ .repas {
+     width: 30%;
+     margin-right: 2em;
+     padding: 2em;
+ }
+ .imagepizza {
+     width: 2em;
+     height: 2em;
+ }
+ .imageskip {
+     width: 2em;
+     height: 2em;
+ }
+ .imgpizza {
+     width: 6em;
+ }
+.section6 {
+     padding-left:15em;
+     padding-right: 15em;
+}
+ .chicken {
+     width:25%; 
+     border: .1px solid red;
+     padding: .5em;
+     margin-top: 1em;
+ }
+ .chicken:hover {
+     position: relative;
+     top: -3em;
+
+ }
+ .addcard {
+     width: 6em;
+     height: 2em;
+     color: white;
+ }
+section, .basdepage, footer {
+        margin-top: 3em;
+        flex-wrap: wrap;
+ }
+.imgchicken {
+     width: 100%;
+     height: 15em;
+     margin: auto;
+
+}
+.borderradius {
+     border-radius: .5em;
+}
+.basdepassesection {
+     width: 20%;
+     margin-right: 2em;
+}
+.basdepage {
+     padding: 1em;
+}
+.ferme {
+     top: -1.5em;
+}
+footer {
+     background-color: pink;
+     
+}
+.imagefacebook1, .imagefacebook2 {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+}
+.imagefacebook {
+     width: 1.3em;
+     height: 1.3em;
+}
+.imagefacebook2 {
+     width: 2em;
+     height: 2em;
+     border-radius: 1em;
+     margin-right: .5em;
+}
+.imagefacebook3 {
+     margin-right: .5em;
+} 
+ #super {
+  
+   background-color: pink;
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+   margin-right: 5%;
+
+ }
+ header {
+     width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+
+   
+ }
+ 
+label {
+     width: 30%;
+     display: inline-block;
+     
+     margin-right: 6em;
+ }
+ em {
+     font-weight: bold;
+     font-style: normal;
+     color: #f00;
+ }
+ input:focus {
+     background-color: #eaeaea;
+ }
+ input {
+     width: 60%;
+     height: 2em;
+ }

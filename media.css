@@ -1,0 +1,60 @@
+@media (min-width: 768px) and (max-width:992px){
+    body{
+
+    }
+    
+
+.section6 {
+    padding-left:1em;
+    padding-right: 1em;
+}
+#menu1 {
+    display: none;
+}
+.list {
+    display: none;
+}
+.imagehero {
+    width: 90%;
+    height: 30em;
+}
+.chicken {
+    width: 40%; 
+    border: .1px solid red;
+    padding: .5em;
+    margin-top:1em;
+    margin-right: .5em;
+}
+.spacebetween {
+    display: flex;
+    justify-content: space-around;
+}
+.sectionpizza  { width: 13em;
+    border-radius: 5px;
+    margin-right: 1em;
+    padding: .5em 2em .3em 2em;
+    height: 4em;
+    background-color: rgb(250, 179, 203);
+    margin-top: 2em;
+    margin-right: 2em;
+}
+.repas {
+    width: 90%;
+    margin-right: 2em;
+    padding: 2em;
+}
+.basdepassesection {
+    width: 45%;
+    margin-right: 2em;
+    padding: 2em;
+}
+
+.basdepassesection {
+    width: 90%;
+  
+}
+.basdepage {
+    padding: 1px;
+    font-size: 1.3em;
+}
+}

@@ -1,0 +1,90 @@
+@media (min-width: 0px) and (max-width:768px){
+    body{
+
+    }
+    .containe {
+        margin: .3em 0 .3em 0 ;
+    }
+    #menu {
+        display: none;
+    }
+    #menu1{
+        overflow: hidden;
+        background-color: rgb(250, 179, 203);
+        position: relative;
+        margin-left: 3.5em;
+    }
+     #menu1  {
+        display: none;
+    }
+    #menu1 a {
+        text-decoration: none;
+        color: blue;
+        padding: 14px 16px;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #menu1 a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #menu1 a:hover {
+        background-color: #ddd;
+        color: blue;
+    }
+    
+.section6 {
+    padding-left:0em;
+    padding-right: 0em;
+}
+
+.imagehero {
+    width: 90%;
+}
+.chicken {
+    width:80%; 
+    border: .1px solid red;
+    padding: 1em;
+    margin-top: 1em;
+}
+.sectionpizza  { width: 40%;
+    border-radius: 5px;
+    margin-right: 1em;
+    padding: .5em ;
+    height: 4em;
+    background-color: rgb(250, 179, 203);
+    margin-top: 1em;
+    margin-right: 1em;
+}
+.spacebetween {
+    display: flex;
+    justify-content: space-around;
+}
+
+.basdepassesection {
+    width: 45%;
+    margin-right: 2em;
+    padding: 2em;
+}
+.repas {
+    width: 90%;
+}
+
+.basdepassesection {
+    width: 90%;
+   
+}
+.basdepage {
+    padding: 3px;
+    font-size: 1.3em;
+}
+.imageskip {
+    width: 10%;
+    height: 2em;
+}
+.imgpizza {
+    width: 20%;
+}
+}

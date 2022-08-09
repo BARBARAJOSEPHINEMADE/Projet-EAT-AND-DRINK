@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+    .list {
+        display: none;
+    }
+   
+#menu1 {
+    display: none;
+}
+ 
+}
